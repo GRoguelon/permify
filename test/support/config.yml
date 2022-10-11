@@ -1,0 +1,16 @@
+app:
+  name: "permify-demo"
+
+http:
+  port: 3476
+
+logger:
+  log_level: "debug"
+  rollbar_env: "permify"
+
+database:
+  write:
+    connection: "postgres"
+    database: "permify_dev"
+    uri: "postgres://permify:permify@permify-postgres:5432"
+    pool_max: 20

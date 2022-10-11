@@ -1,0 +1,9 @@
+entity user {}
+
+entity organization {
+    relation admin @user
+    relation member @user
+
+    action view_files = admin or member
+    action edit_files = admin
+}
