@@ -19,7 +19,7 @@ defmodule Permify.Client do
   ## Public functions
 
   @doc """
-  Creates a new struct `__MODULE__ |> Module.split() |> Enum.join(".")`.
+  Creates a new struct `#{__MODULE__ |> Module.split() |> Enum.join(".")}`.
   """
   @spec new(binary() | URI.t()) :: t()
   def new(endpoint \\ "http://localhost:3476/v1") do
