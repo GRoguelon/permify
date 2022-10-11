@@ -15,7 +15,7 @@ defmodule Permify.MixProject do
       ],
       name: "Permify",
       source_url: "https://github.com/GRoguelon/permify",
-      homepage_url: "https://www.phoenixframework.org",
+      homepage_url: "https://www.permify.co",
       description: "Open-source authorization service and policy engine",
       docs: docs()
     ]
